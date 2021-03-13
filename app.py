@@ -23,4 +23,4 @@ def home_():
 
 
 if __name__ == '__main__':
-    app.run(port=process.env.PORT or 5000)
+    app.run(port=process.env.PORT)
